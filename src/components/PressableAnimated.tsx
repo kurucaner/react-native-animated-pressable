@@ -7,6 +7,18 @@ import {
   ViewStyle,
 } from "react-native";
 
+interface IPressableAnimated {
+  bounce?: boolean;
+  children: React.ReactNode;
+  customStyles?: StyleProp<ViewStyle>;
+  isDisabled?: boolean;
+  isPressed?: boolean;
+  onPress?: () => void;
+  onPressIn?: () => void;
+  onPressOut?: () => void;
+  scaleValue?: number;
+}
+
 export const PressableAnimated = ({
   bounce = false,
   children,
@@ -17,17 +29,7 @@ export const PressableAnimated = ({
   onPressIn,
   onPressOut,
   scaleValue = 1.03,
-}: {
-  bounce?: boolean;
-  children: React.ReactNode;
-  customStyles?: StyleProp<ViewStyle>;
-  isDisabled?: boolean;
-  isPressed?: boolean;
-  onPress?: () => void;
-  onPressIn?: () => void;
-  onPressOut?: () => void;
-  scaleValue?: number;
-}) => {
+}: IPressableAnimated) => {
   const { scale, animateIn, animateOut } = usePressAnimation({
     scaleValue,
     bounce,
