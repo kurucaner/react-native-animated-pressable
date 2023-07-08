@@ -1,7 +1,25 @@
 {
+  "author": "Caner Kuru",
   "name": "react-native-animated-pressable",
   "version": "1.0.0",
-  "main": "./src/index.ts",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "animation",
+    "pressable",
+    "button",
+    "interactive",
+    "scale",
+    "react-native-animation",
+    "ui-component",
+    "pressable-animation",
+    "react-native-button",
+    "touchable",
+    "react-native-interactive",
+    "react-native-component",
+    "user-interface"
+  ],
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -18,5 +36,14 @@
     "@babel/core": "^7.20.0",
     "typescript": "^5.1.6"
   },
-  "private": true
+  "private": false,
+  "description": "<h1>PressableAnimated</h1> <p>PressableAnimated is a React Native UI component that allows you to create pressable elements with an animation. The animation is fully customizable, offering flexibility in its usage.</p> <h2>Table of Contents</h2> <ul> <li><a href=\"#intro\" target=\"_new\">Intro</a></li> <li><a href=\"#motivation\" target=\"_new\">Motivation</a></li> <li><a href=\"#installation\" target=\"_new\">Installation</a></li> <li><a href=\"#demo\" target=\"_new\">Demo</a></li> <li><a href=\"#usage\" target=\"_new\">Usage</a></li> <li><a href=\"#api\" target=\"_new\">API</a></li> <li><a href=\"#example\" target=\"_new\">Example</a></li> </ul>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurucaner/react-native-animated-pressable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kurucaner/react-native-animated-pressable/issues"
+  },
+  "homepage": "https://github.com/kurucaner/react-native-animated-pressable#readme"
 }
