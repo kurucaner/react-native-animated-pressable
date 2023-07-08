@@ -39,11 +39,21 @@ yarn add react-native-pressable-animated
 
 ### Example 1
 
-![Example 1](./src/assets/scale-up.mp4)
+<img
+src="./src/assets/scale-up.gif"
+alt="Example 1"
+width="200"
+height="400"
+/>
 
 ### Example 2
 
-![Example 2](./src/assets/scale-down.mp4)
+<img
+src="./src/assets/scale-down.gif"
+alt="Example 2"
+width="200"
+height="400"
+/>
 
 ## Usage
 
