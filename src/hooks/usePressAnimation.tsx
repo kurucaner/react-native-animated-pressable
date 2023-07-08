@@ -22,7 +22,7 @@ export const usePressAnimation = ({
   const animateOut = () => {
     Animated.spring(scale, {
       toValue: 1,
-      speed: bounce ? 1 : 100,
+      speed: bounce ? 1 : undefined,
       useNativeDriver: true,
     }).start();
   };

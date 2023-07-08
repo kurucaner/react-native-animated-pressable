@@ -1,7 +1,7 @@
 {
   "author": "Caner Kuru",
   "name": "react-native-animated-pressable",
-  "version": "1.0.5",
+  "version": "1.0.9",
   "license": "MIT",
   "main": "./src/index.ts",
   "keywords": [
