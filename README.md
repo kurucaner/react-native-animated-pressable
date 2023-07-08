@@ -26,13 +26,13 @@
 <p>Installing <code><strong>PressableAnimated</strong></code>, is a breeze and can be done with either npm or yarn.</p>
 
 ```bash
-npm install react-native-pressable-animated
+npm install react-native-animated-pressable
 ```
 
 or
 
 ```bash
-yarn add react-native-pressable-animated
+yarn add react-native-animated-pressable
 ```
 
 ## Demo 🎥
