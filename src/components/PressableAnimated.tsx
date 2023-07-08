@@ -1,5 +1,11 @@
 import { usePressAnimation } from "../hooks/usePressAnimation";
-import { Animated, Pressable, StyleProp, ViewStyle } from "react-native";
+import {
+  Animated,
+  Pressable,
+  StyleProp,
+  StyleSheet,
+  ViewStyle,
+} from "react-native";
 
 export const PressableAnimated = ({
   bounce = false,
@@ -47,6 +53,7 @@ export const PressableAnimated = ({
       onPress={handleOnPress}
       onPressIn={handleOnPressIn}
       onPressOut={handleOnPressOut}
+      style={styles.pressable}
     >
       <Animated.View
         style={[
@@ -65,3 +72,9 @@ export const PressableAnimated = ({
     </Pressable>
   );
 };
+
+const styles = StyleSheet.create({
+  pressable: {
+    width: "100%",
+  },
+});
