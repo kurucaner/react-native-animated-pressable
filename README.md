@@ -40,7 +40,7 @@ yarn add react-native-pressable-animated
 ### Example 1
 
 <img
-src="./src/assets/scale-up.gif"
+src="./src/assets/scale-up.mp4"
 alt="Example 1"
 width="200"
 height="400"
@@ -49,7 +49,7 @@ height="400"
 ### Example 2
 
 <img
-src="./src/assets/scale-down.gif"
+src="./src/assets/scale-down.mp4"
 alt="Example 2"
 width="200"
 height="400"
