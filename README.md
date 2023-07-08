@@ -37,6 +37,8 @@ yarn add react-native-animated-pressable
 
 ## Demo 🎥
 
+<em><strong>Press animation is significantly smoother in reality compared to the gifs presented below.</strong></em>
+
 ### Example 1
 
 <em>
