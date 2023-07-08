@@ -39,11 +39,11 @@ yarn add react-native-pressable-animated
 
 ### Example 1
 
-![Example 1](./src/assets/scale-up.mp4)
+![Example 1](./assets/scale-up.mp4)
 
 ### Example 2
 
-![Example 2](./src/assets/scale-down.mp4)
+![Example 2](./assets/scale-down.mp4)
 
 ## Usage
 
