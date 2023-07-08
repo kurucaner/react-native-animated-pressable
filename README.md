@@ -39,6 +39,10 @@ yarn add react-native-animated-pressable
 
 ### Example 1
 
+<em>
+scaleValue={1.2}
+</em>
+
 <img
 src="./src/assets/scale-up.gif"
 alt="Example 1"
@@ -47,6 +51,10 @@ height="400"
 />
 
 ### Example 2
+
+<em>
+scaleValue={0.8}
+</em>
 
 <img
 src="./src/assets/scale-down.gif"
