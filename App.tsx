@@ -1,5 +1,8 @@
+import { registerRootComponent } from "expo";
 import { PressableAnimated } from "./src/components/PressableAnimated";
 import { StyleSheet, Text, View } from "react-native";
+
+registerRootComponent(App);
 
 export default function App() {
   return (

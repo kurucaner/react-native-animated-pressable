@@ -2,20 +2,21 @@ import { usePressAnimation } from "../hooks/usePressAnimation";
 import {
   Animated,
   Pressable,
+  PressableProps,
   StyleProp,
   StyleSheet,
   ViewStyle,
 } from "react-native";
 
-interface IPressableAnimated {
+interface IPressableAnimated extends PressableProps {
   bounce?: boolean;
   children: React.ReactNode;
   customStyles?: StyleProp<ViewStyle>;
-  isDisabled?: boolean;
-  isPressed?: boolean;
   onPress?: () => void;
   onPressIn?: () => void;
   onPressOut?: () => void;
+  isDisabled?: boolean;
+  isPressed?: boolean;
   scaleValue?: number;
 }
 
@@ -29,6 +30,7 @@ export const PressableAnimated = ({
   onPressIn,
   onPressOut,
   scaleValue = 1.03,
+  ...props
 }: IPressableAnimated) => {
   const { scale, animateIn, animateOut } = usePressAnimation({
     scaleValue,
@@ -56,6 +58,7 @@ export const PressableAnimated = ({
       onPressIn={handleOnPressIn}
       onPressOut={handleOnPressOut}
       style={styles.pressable}
+      {...props}
     >
       <Animated.View
         style={[
