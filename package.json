@@ -1,9 +1,11 @@
 {
   "author": "Caner Kuru",
   "name": "react-native-animated-pressable",
-  "version": "1.1.5",
+  "version": "1.1.7",
   "license": "MIT",
-  "main": "./src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "keywords": [
     "react-native",
     "animation",
@@ -24,16 +26,19 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
   },
   "dependencies": {
-    "@types/react": "~18.0.27",
-    "expo": "^49.0.0",
+    "@types/react": "~18.2.20",
+    "expo": "^49.0.7",
     "react": "18.2.0",
-    "react-native": "0.72.1"
+    "react-native": "^0.72.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0",
+    "@babel/core": "^7.22.10",
+    "tsup": "^7.2.0",
     "typescript": "^5.1.6"
   },
   "private": false,

@@ -1,9 +1,9 @@
+import React from "react";
 import { usePressAnimation } from "../hooks/usePressAnimation";
 import {
   Animated,
   Pressable,
   PressableProps,
-  StyleProp,
   StyleSheet,
   ViewStyle,
 } from "react-native";
@@ -11,7 +11,7 @@ import {
 interface IPressableAnimated extends PressableProps {
   bounce?: boolean;
   children: React.ReactNode;
-  customStyles?: StyleProp<ViewStyle>;
+  customStyles?: ViewStyle;
   onPress?: () => void;
   onPressIn?: () => void;
   onPressOut?: () => void;
