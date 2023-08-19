@@ -1,5 +1,5 @@
-import { useState } from "react";
 import { Animated } from "react-native";
+import { useState } from "react";
 
 interface IUsePressAnimation {
   scaleValue?: number;
